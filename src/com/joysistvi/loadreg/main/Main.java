@@ -375,7 +375,8 @@ public class Main {
                     int referenceNumber = (int) (Math.random() * 900000) + 100000;
 
                     if (historyCount < promoHistory.length) {
-                        promoHistory[historyCount] = promo + " | P" + price + " | " + days + " Day/s | Ref No: " + referenceNumber;
+                        promoHistory[historyCount] = promo + " | P" + price + " | " + days + " Day/s | Ref No: "
+                                + referenceNumber;
                         historyCount++;
                     }
 
